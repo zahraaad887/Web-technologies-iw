@@ -2,13 +2,12 @@ import java.util.Scanner;
 
 public class SalamProqrami {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in); // İstifadəçidən məlumat almaq üçün
+        Scanner input = new Scanner(System.in);
 
-        System.out.print("Adınızı daxil edin: ");
-        String ad = input.nextLine(); // Adı oxuyur
+        System.out.print("Your name?: ");
+        String ad = input.nextLine();
 
-        System.out.println("Salam, " + ad + "! Proqramımıza xoş gəldiniz.");
+        System.out.println("Hello, " + ad + "! Welcome to our webpage.");
 
-        input.close(); // Scanner obyektini bağlayır
-    }
+        input.close(); 
 }
